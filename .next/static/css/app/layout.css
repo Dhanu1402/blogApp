@@ -68,8 +68,80 @@
 }
 
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/navbar/Navbar.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/navbar/navbar.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_container__CZncu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navbar_social__Zhp3T {
+  display: flex;
+  gap: 10px;
+  flex: 1 1;
+}
+
+.navbar_logo__uZP7g {
+  flex: 1 1;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.navbar_links__zwFDW {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1 1;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .navbar_logo__uZP7g {
+    font-size: 32px;
+  }
+  .navbar_links__zwFDW {
+    font-size: 18px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar_social__Zhp3T {
+    display: none;
+  }
+  .navbar_logo__uZP7g {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_logo__uZP7g {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .navbar_links__zwFDW {
+    justify-content: flex-end;
+  }
+  .navbar_link__AyfKG {
+    display: none;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/themeToggle/ThemeToggle.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/authLinks/AuthLinks.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.AuthLinks_link__aiCgg {
+  cursor: pointer;
+}
 
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/globals.css ***!
