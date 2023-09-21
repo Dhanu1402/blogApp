@@ -1,6 +1,10 @@
 /*!*********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/app/homepage.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************/
+.homepage_content__m6Qf_ {
+  display: flex;
+  gap: 50px;
+}
 
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/featured/featured.module.css ***!
@@ -167,8 +171,72 @@
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/cardList/CardList.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************/
+.CardList_container__6_lxm {
+  flex: 5 1;
+}
+
+.CardList_title__FUW5R {
+  margin: 50px 0px;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/card/Card.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Card_container__Y9bZ2 {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.Card_imageContainer__pTsyp {
+  flex: 1 1;
+  height: 350px;
+  position: relative;
+}
+
+.Card_image__dMxf8 {
+  object-fit: cover;
+}
+
+.Card_textContainer__PSD9U {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Card_date___dY_F {
+  color: gray;
+}
+
+.Card_category__IwyeW {
+  color: crimson;
+  font-weight: 500;
+}
+
+.Card_desc__85W7c {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.Card_link__kx4yK {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .Card_imageContainer__pTsyp {
+    display: none;
+  }
+}
 
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/menu/Menu.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Menu_container__r5b56 {
+  flex: 2 1;
+}
 
