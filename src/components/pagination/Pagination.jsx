@@ -1,5 +1,12 @@
-import styles from './Pagination.module.css';
+'use client';
+
+import styles from './pagination.module.css';
 
 export default function Pagination() {
-  return <div>Pagination</div>;
+  return (
+    <div className={styles.container}>
+      <button className={styles.button}>Previous</button>
+      <button className={styles.button}>Next</button>
+    </div>
+  );
 }
