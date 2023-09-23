@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './Card.module.css';
+import styles from './card.module.css';
 import Link from 'next/link';
 
 export default function Card({ key, item }) {
