@@ -1,8 +1,8 @@
 {
   "/page": "/",
   "/favicon.ico/route": "/favicon.ico",
-  "/login/page": "/login",
   "/blog/page": "/blog",
+  "/login/page": "/login",
   "/write/page": "/write",
   "/posts/[slug]/page": "/posts/[slug]",
   "/api/categories/route": "/api/categories",

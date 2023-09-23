@@ -5,13 +5,6 @@ exports.id = 13;
 exports.ids = [13];
 exports.modules = {
 
-/***/ 53524:
-/***/ ((module) => {
-
-module.exports = require("@prisma/client");
-
-/***/ }),
-
 /***/ 39491:
 /***/ ((module) => {
 
@@ -19,10 +12,24 @@ module.exports = require("assert");
 
 /***/ }),
 
+/***/ 50852:
+/***/ ((module) => {
+
+module.exports = require("async_hooks");
+
+/***/ }),
+
 /***/ 14300:
 /***/ ((module) => {
 
 module.exports = require("buffer");
+
+/***/ }),
+
+/***/ 32081:
+/***/ ((module) => {
+
+module.exports = require("child_process");
 
 /***/ }),
 
@@ -37,6 +44,20 @@ module.exports = require("crypto");
 /***/ ((module) => {
 
 module.exports = require("events");
+
+/***/ }),
+
+/***/ 57147:
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 73292:
+/***/ ((module) => {
+
+module.exports = require("fs/promises");
 
 /***/ }),
 
@@ -61,10 +82,24 @@ module.exports = require("os");
 
 /***/ }),
 
+/***/ 71017:
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
 /***/ 63477:
 /***/ ((module) => {
 
 module.exports = require("querystring");
+
+/***/ }),
+
+/***/ 76224:
+/***/ ((module) => {
+
+module.exports = require("tty");
 
 /***/ }),
 
@@ -229,7 +264,7 @@ const originalPathname = "/api/comments/route";
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,501,335,549,198], () => (__webpack_exec__(64051)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,501,335,549,101,198], () => (__webpack_exec__(64051)));
 module.exports = __webpack_exports__;
 
 })();

@@ -5,10 +5,38 @@ exports.id = 991;
 exports.ids = [991];
 exports.modules = {
 
-/***/ 53524:
+/***/ 50852:
 /***/ ((module) => {
 
-module.exports = require("@prisma/client");
+module.exports = require("async_hooks");
+
+/***/ }),
+
+/***/ 32081:
+/***/ ((module) => {
+
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ 82361:
+/***/ ((module) => {
+
+module.exports = require("events");
+
+/***/ }),
+
+/***/ 57147:
+/***/ ((module) => {
+
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 73292:
+/***/ ((module) => {
+
+module.exports = require("fs/promises");
 
 /***/ }),
 
@@ -16,6 +44,27 @@ module.exports = require("@prisma/client");
 /***/ ((module) => {
 
 module.exports = require("os");
+
+/***/ }),
+
+/***/ 71017:
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ 76224:
+/***/ ((module) => {
+
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ 73837:
+/***/ ((module) => {
+
+module.exports = require("util");
 
 /***/ }),
 
@@ -118,24 +167,6 @@ const originalPathname = "/api/posts/[slug]/route";
 
 //# sourceMappingURL=app-route.js.map
 
-/***/ }),
-
-/***/ 49101:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53524);
-/* harmony import */ var _prisma_client__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_prisma_client__WEBPACK_IMPORTED_MODULE_0__);
-
-let prisma;
-if (true) {
-    prisma = new _prisma_client__WEBPACK_IMPORTED_MODULE_0__.PrismaClient();
-} else {}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (prisma);
-
-
 /***/ })
 
 };
@@ -145,7 +176,7 @@ if (true) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,501,335], () => (__webpack_exec__(99414)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,501,335,101], () => (__webpack_exec__(99414)));
 module.exports = __webpack_exports__;
 
 })();
