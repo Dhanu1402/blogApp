@@ -351,7 +351,19 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 63574:
+/***/ 20055:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23))
+
+/***/ }),
+
+/***/ 15292:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
@@ -540,8 +552,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(56786);
-// EXTERNAL MODULE: ./src/components/Menu/Menu.jsx
-var Menu = __webpack_require__(87119);
+// EXTERNAL MODULE: ./src/components/menu/Menu.jsx + 2 modules
+var Menu = __webpack_require__(18605);
 // EXTERNAL MODULE: ./src/app/posts/[slug]/singlePage.module.css
 var singlePage_module = __webpack_require__(55512);
 var singlePage_module_default = /*#__PURE__*/__webpack_require__.n(singlePage_module);
@@ -671,7 +683,7 @@ async function SinglePage({ params }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,719,146,988,405,119], () => (__webpack_exec__(20653)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,719,146,601,605], () => (__webpack_exec__(20653)));
 module.exports = __webpack_exports__;
 
 })();

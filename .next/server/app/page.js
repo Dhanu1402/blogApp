@@ -278,7 +278,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14103)), "/Users/dhanukesharwani/Desktop/blogApp/src/app/page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37167)), "/Users/dhanukesharwani/Desktop/blogApp/src/app/page.jsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 73881))).default(props))],
     apple: [],
@@ -333,12 +333,24 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 33469:
+/***/ 14534:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23))
+
+/***/ }),
+
+/***/ 89539:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 88207))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 88207));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50954, 23))
 
 /***/ }),
 
@@ -392,20 +404,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 587:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"container": "menu_container__jTKJp",
-	"subtitle": "menu_subtitle__J7xJj",
-	"title": "menu_title__QQ7Zn"
-};
-
-
-/***/ }),
-
-/***/ 14103:
+/***/ 37167:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -535,57 +534,8 @@ async function CategoryList() {
 
 // EXTERNAL MODULE: ./src/components/cardList/CardList.jsx + 2 modules
 var CardList = __webpack_require__(74921);
-// EXTERNAL MODULE: ./src/components/menu/menu.module.css
-var menu_module = __webpack_require__(587);
-var menu_module_default = /*#__PURE__*/__webpack_require__.n(menu_module);
-// EXTERNAL MODULE: ./src/components/menuPosts/MenuPosts.jsx
-var MenuPosts = __webpack_require__(11985);
-// EXTERNAL MODULE: ./src/components/menuCategories/MenuCategories.jsx
-var MenuCategories = __webpack_require__(1490);
-;// CONCATENATED MODULE: ./src/components/menu/Menu.jsx
-
-
-
-
-function Menu() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (menu_module_default()).container,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                className: (menu_module_default()).subtitle,
-                children: "What's hot"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: (menu_module_default()).title,
-                children: "Most Popular"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(MenuPosts/* default */.Z, {
-                withImage: false
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                className: (menu_module_default()).subtitle,
-                children: "Discover by topic"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: (menu_module_default()).title,
-                children: "Categories"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(MenuCategories/* default */.Z, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                className: (menu_module_default()).subtitle,
-                children: "Chosen by the editor"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: (menu_module_default()).title,
-                children: "Editors Pick"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(MenuPosts/* default */.Z, {
-                withImage: true
-            })
-        ]
-    });
-}
-
+// EXTERNAL MODULE: ./src/components/menu/Menu.jsx + 2 modules
+var Menu = __webpack_require__(18605);
 ;// CONCATENATED MODULE: ./src/app/page.jsx
 
 
@@ -606,7 +556,7 @@ function Home({ searchParams }) {
                     /*#__PURE__*/ jsx_runtime_.jsx(CardList/* default */.Z, {
                         page: page
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(Menu, {})
+                    /*#__PURE__*/ jsx_runtime_.jsx(Menu/* default */.Z, {})
                 ]
             })
         ]
@@ -623,7 +573,7 @@ function Home({ searchParams }) {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,719,988,405,936], () => (__webpack_exec__(26402)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,719,601,605,936], () => (__webpack_exec__(26402)));
 module.exports = __webpack_exports__;
 
 })();

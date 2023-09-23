@@ -43,31 +43,31 @@ function Pagination({ page, hasPrev, hasNext }) {
 
 /***/ }),
 
-/***/ 58028:
+/***/ 33879:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"container": "Card_container__Y9bZ2",
-	"imageContainer": "Card_imageContainer__pTsyp",
-	"image": "Card_image__dMxf8",
-	"textContainer": "Card_textContainer__PSD9U",
-	"date": "Card_date___dY_F",
-	"category": "Card_category__IwyeW",
-	"desc": "Card_desc__85W7c",
-	"link": "Card_link__kx4yK"
+	"container": "card_container__xBy9R",
+	"imageContainer": "card_imageContainer__0rYcM",
+	"image": "card_image__5mzyB",
+	"textContainer": "card_textContainer__uD6_C",
+	"date": "card_date__IWhCo",
+	"category": "card_category__QmWQb",
+	"desc": "card_desc__hMM2S",
+	"link": "card_link__yV43X"
 };
 
 
 /***/ }),
 
-/***/ 19099:
+/***/ 99721:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"container": "CardList_container__6_lxm",
-	"title": "CardList_title__FUW5R"
+	"container": "cardList_container__tWwXs",
+	"title": "cardList_title__fyoKM"
 };
 
 
@@ -115,12 +115,12 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const Pagination = (__default__);
-// EXTERNAL MODULE: ./src/components/cardList/CardList.module.css
-var CardList_module = __webpack_require__(19099);
-var CardList_module_default = /*#__PURE__*/__webpack_require__.n(CardList_module);
-// EXTERNAL MODULE: ./src/components/card/Card.module.css
-var Card_module = __webpack_require__(58028);
-var Card_module_default = /*#__PURE__*/__webpack_require__.n(Card_module);
+// EXTERNAL MODULE: ./src/components/cardList/cardList.module.css
+var cardList_module = __webpack_require__(99721);
+var cardList_module_default = /*#__PURE__*/__webpack_require__.n(cardList_module);
+// EXTERNAL MODULE: ./src/components/card/card.module.css
+var card_module = __webpack_require__(33879);
+var card_module_default = /*#__PURE__*/__webpack_require__.n(card_module);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(25124);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
@@ -131,25 +131,25 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 function Card({ key, item }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (Card_module_default()).container,
+        className: (card_module_default()).container,
         children: [
             item.img && /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (Card_module_default()).imageContainer,
+                className: (card_module_default()).imageContainer,
                 children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                     src: item.img,
                     alt: "",
                     fill: true,
-                    className: (Card_module_default()).image
+                    className: (card_module_default()).image
                 })
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (Card_module_default()).textContainer,
+                className: (card_module_default()).textContainer,
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (Card_module_default()).detail,
+                        className: (card_module_default()).detail,
                         children: [
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                                className: (Card_module_default()).date,
+                                className: (card_module_default()).date,
                                 children: [
                                     item.createdAt.substring(0, 10),
                                     " -",
@@ -157,7 +157,7 @@ function Card({ key, item }) {
                                 ]
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                className: (Card_module_default()).category,
+                                className: (card_module_default()).category,
                                 children: item.catSlug
                             })
                         ]
@@ -169,14 +169,14 @@ function Card({ key, item }) {
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (Card_module_default()).desc,
+                        className: (card_module_default()).desc,
                         dangerouslySetInnerHTML: {
                             __html: item?.desc.substring(0, 60)
                         }
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                         href: `/posts/${item.slug}`,
-                        className: (Card_module_default()).link,
+                        className: (card_module_default()).link,
                         children: "Read More"
                     })
                 ]
@@ -206,14 +206,14 @@ async function CardList({ page, cat }) {
     const hasPrev = POST_PER_PAGE * (page - 1) > 0;
     const hasNext = POST_PER_PAGE * (page - 1) + POST_PER_PAGE < count;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (CardList_module_default()).container,
+        className: (cardList_module_default()).container,
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: (CardList_module_default()).title,
+                className: (cardList_module_default()).title,
                 children: "Recent Posts"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (CardList_module_default()).posts,
+                className: (cardList_module_default()).posts,
                 children: posts?.map((item)=>/*#__PURE__*/ jsx_runtime_.jsx(Card, {
                         item: item
                     }, item._id))

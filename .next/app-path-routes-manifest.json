@@ -1,13 +1,13 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
-  "/blog/page": "/blog",
+  "/favicon.ico/route": "/favicon.ico",
   "/login/page": "/login",
+  "/blog/page": "/blog",
   "/write/page": "/write",
   "/posts/[slug]/page": "/posts/[slug]",
   "/api/categories/route": "/api/categories",
-  "/api/comments/route": "/api/comments",
   "/api/posts/route": "/api/posts",
+  "/api/comments/route": "/api/comments",
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
   "/api/posts/[slug]/route": "/api/posts/[slug]"
 }
