@@ -3,7 +3,7 @@
   "functions": {
     "/api/categories": {},
     "/api/comments": {},
-    "/api/posts": {},
-    "/api/posts/[slug]": {}
+    "/api/posts/[slug]": {},
+    "/api/posts": {}
   }
 }
